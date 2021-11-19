@@ -63,9 +63,13 @@ public void TotalStockValue() {
 }
  public static void main (String[]Msg) {
 	 System.out.println("STOCK ACCOUNT MANAGEMENT PROGRAM");
-	  StockAccount obj =new StockAccount();
+	/*  StockAccount obj =new StockAccount();
 	  obj.NumofStocks();
-	  obj.DisplayStocks();
+	  obj.DisplayStocks();*/
+	 
+	 Account AccountStatus = new Account();
+		AccountStatus.Credit();
+		AccountStatus.Debit();
 	
    }
 }
